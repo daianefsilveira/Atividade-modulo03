@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="shortcut icon" href="../imagem/aviao.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agência de Viagem</title>
+</head>
+
+<body>
+    <header>
+        <section class="wrap">
+            <div class="group-header">
+                <div class="box-logo">
+                    <h1 class="logo">Viaje <span>bem</span></h1>
+                </div>
+                <ul class="nav-list">
+                    <li class="list"><a href="home.html">Home</a></li>
+                    <li class="list"><a href="destinos.html">Destinos</a></li>
+                    <li class="list"><a href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </div>
+        </section>
+    </header>
+    <main>
+            <form>
+                <fieldset>
+                    <div>
+                        <span>Preencha os campos abaixo</span>
+                    </div>
+                    <div class="campo-obrigatorio">
+                        <h11>*</h11> Campo Obrigatório
+                    </div>
+                    <div>
+                        <label for="nome">Nome <h11>*</h11></label>
+                        <div>
+                            <input id="nome" name="nome" placeholder="" required="" type="text">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="cpf">CPF <h11>*</h11></label>
+                            <div>
+                                <input id="cpf" name="cpf" placeholder=" Apenas números" required="" type="text"
+                                    maxlength="11" pattern="[0-9]+$">
+                            </div>
+                            <br>
+                            <div>
+                                <label for="telefone">Telefone <h11>*</h11></label>
+                                <div>
+                                    <input id="telefone" name="telefone" placeholder=" XX XXXXX-XXXX" required=""
+                                        type="text" maxlength="13" pattern="\[0-9]{2}\ [0-9]{4,6}-[0-9]{3,4}$"
+                                        OnKeyPress="formatar('## #####-####', this)">
+                                </div>
+                                <br>
+                                <div>
+                                    <label for="selectbasic">Destino <h11>*</h11></label>
+                                    <div>
+                                        <select required id="destino" name="destino">
+                                            <option value=""></option>
+                                            <option value="NY">Nova York</option>
+                                            <option value="Londres">Londres</option>
+                                            <option value="Dubai">Dubai</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <br>
+                                <div>
+                                    <label for="ida">Ida<h11>*</h11></label>
+                                    <div>
+                                        <input id="ida" name="ida" placeholder=" DD/MM/AAAA" required="" type="text"
+                                            maxlength="10" OnKeyPress="formatar('##/##/####', this)">
+                                    </div>
+                                    <br>
+                                    <div>
+                                        <label for="volta">Volta<h11>*</h11></label>
+                                        <div>
+                                            <input id="volta" name="volta" placeholder=" DD/MM/AAAA" required=""
+                                                type="text" maxlength="10" OnKeyPress="formatar('##/##/####', this)">
+                                        </div>
+                                        <br>
+                                        <div>
+                                            <label for="Cadastrar"></label>
+                                            <div class="bnt">
+                                                <button id="cadastrar" name="cadastrar" type="Submit"
+                                                    onsubmit="">Cadastrar</button>
+                                                <button id="cancelar" name="cancelar" type="Reset">Cancelar</button>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+       
+    </main>
+    <footer>
+        <section class="section-footer">
+            <div class="box-footer">
+                <ul class="box-nav">
+                    <li class="list-nav"><a href="#" class="link">Blog</a></li>
+                    <li class="list-nav"><a href="#" class="link">Nossas Redes!</a></li>
+                    <li class="list-nav"><a href="#" class="link">Ajuda</a></li>
+                </ul>
+                <div class="envelope">
+                    <h2 class="subtitle">Viaje bem</h2>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>

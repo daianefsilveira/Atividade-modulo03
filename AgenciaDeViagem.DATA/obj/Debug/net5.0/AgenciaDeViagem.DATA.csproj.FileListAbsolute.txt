@@ -1,0 +1,12 @@
+C:\Users\daia_\source\repos\AgenciaDeViagem\AgenciaDeViagem.DATA\bin\Debug\net5.0\AgenciaDeViagem.DATA.deps.json
+C:\Users\daia_\source\repos\AgenciaDeViagem\AgenciaDeViagem.DATA\bin\Debug\net5.0\AgenciaDeViagem.DATA.dll
+C:\Users\daia_\source\repos\AgenciaDeViagem\AgenciaDeViagem.DATA\bin\Debug\net5.0\ref\AgenciaDeViagem.DATA.dll
+C:\Users\daia_\source\repos\AgenciaDeViagem\AgenciaDeViagem.DATA\bin\Debug\net5.0\AgenciaDeViagem.DATA.pdb
+C:\Users\daia_\source\repos\AgenciaDeViagem\AgenciaDeViagem.DATA\obj\Debug\net5.0\AgenciaDeViagem.DATA.csproj.AssemblyReference.cache
+C:\Users\daia_\source\repos\AgenciaDeViagem\AgenciaDeViagem.DATA\obj\Debug\net5.0\AgenciaDeViagem.DATA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\daia_\source\repos\AgenciaDeViagem\AgenciaDeViagem.DATA\obj\Debug\net5.0\AgenciaDeViagem.DATA.AssemblyInfoInputs.cache
+C:\Users\daia_\source\repos\AgenciaDeViagem\AgenciaDeViagem.DATA\obj\Debug\net5.0\AgenciaDeViagem.DATA.AssemblyInfo.cs
+C:\Users\daia_\source\repos\AgenciaDeViagem\AgenciaDeViagem.DATA\obj\Debug\net5.0\AgenciaDeViagem.DATA.csproj.CoreCompileInputs.cache
+C:\Users\daia_\source\repos\AgenciaDeViagem\AgenciaDeViagem.DATA\obj\Debug\net5.0\AgenciaDeViagem.DATA.dll
+C:\Users\daia_\source\repos\AgenciaDeViagem\AgenciaDeViagem.DATA\obj\Debug\net5.0\ref\AgenciaDeViagem.DATA.dll
+C:\Users\daia_\source\repos\AgenciaDeViagem\AgenciaDeViagem.DATA\obj\Debug\net5.0\AgenciaDeViagem.DATA.pdb

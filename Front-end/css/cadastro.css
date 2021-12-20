@@ -1,0 +1,94 @@
+
+h11 {
+    color:red;
+}
+
+form {
+    display: flex;
+    justify-content:center;
+    margin: 26px 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+fieldset {
+    width: 42%;
+    padding: 10px;
+    border-radius: 10px;
+    background: #6c63ff;
+    box-shadow: 6px 6px 10px;
+    border: none;
+}
+
+div > span {
+    font-weight: bold;
+    font-size:22px;
+    color: black;
+    font-family: "Poppins", sans-serif;
+}
+
+.campo-obrigatorio {
+    font-weight: bold;
+    text-align:end;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+input, select {
+    border-radius: 3px;
+    filter: drop-shadow(0px 0px 1.5px rgb(155, 154, 154, 0.5));
+    border: 1px solid rgb(255,255,255,0.5);
+}
+
+#nome {
+    width: 60%;
+}
+
+.telefone > div,
+.origem_destino > div,
+.ida_volta > div,
+.bnt {
+    margin-top:10px;
+}
+
+#cpf,
+.origem,
+.ida {
+    margin-right: 20px;
+}
+
+.origem_destino,
+.ida_volta {
+    display: flex;
+}
+
+#email {
+    width:100%;
+}
+
+#cadastrar, #cancelar {
+    padding: 3px 5px;
+    border: 1px solid rgb(255,255,255,0.0);
+    border-radius: 6px;
+    box-shadow: 1px 1px 2px;
+    cursor: pointer;
+    transition: all 0.3;
+}
+
+#cadastrar:hover, #cancelar:hover {
+    transform: scale(1.03);
+    font-weight: bold;
+}
+
+#cadastrar {
+    background-color: rgb(66, 255, 66);
+}
+
+#cancelar {
+    background-color: rgb(255, 56, 56);
+}
+
